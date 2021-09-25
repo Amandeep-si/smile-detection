@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-# we use two haarcascade files which have an information of file detection and simile detection
+# we use two haarcascade files which have an information of face detection and simile detection
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 smileCascade = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_smile.xml')
